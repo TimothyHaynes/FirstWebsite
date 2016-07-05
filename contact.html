@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="HaynesPortfolio.css"/>
+	<title>Contact</title>
+	<link href='https://fonts.googleapis.com/css?family=Sansita+One' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div id="navbar"> 
+		<h2>Timothy Haynes</h2>
+		<ul>
+  			<li><a class="navbuttons" href="home.html">Home</a></li>
+  			<li><a class="navbuttons" href="about.html">About</a></li>
+			<li><a class="navbuttons" href="contact.html">Contact</a></li>
+			
+  </li>
+		</ul>
+	</div>
+	
+	<div id="empty_left"></div>
+	<div id="empty_right"></div>
+
+	<form id="contact-form" action="/" method="post">
+        <span id="contact_form">
+	        <h3>Get in touch</h3>
+	        <div>
+	                <label>
+	                        <span>Name: (required)</span>
+	                        <input placeholder="Please enter your name" type="text" tabindex="1" required autofocus>
+	                </label>
+	        </div>
+	        <div>
+	                <label>
+	                        <span>Email: (required)</span>
+	                        <input placeholder="Please enter your email address" type="email" tabindex="2" required>
+	                </label>
+	        </div>
+	        <div>
+	                <label>
+	                        <span>Telephone: (required)</span>
+	                        <input placeholder="Please enter your number" type="tel" tabindex="3" required>
+	                </label>
+	        </div>
+	        <div>
+	                <label>
+	                        <span>Message: (required)</span>
+	                        <textarea placeholder="Include all the details you can" tabindex="5" required></textarea>
+	                </label>
+	        </div>
+	        <div>
+	                <input onclick="myFunction()" type="button" value="Submit" id="contact-submit"></input> 
+	                <script src="HaynesPortfolio.js"></script>
+	        </div>
+	    </span>
+</form>
+
+</body>
+</html>
